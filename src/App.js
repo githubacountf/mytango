@@ -7,6 +7,7 @@ function App() {
     function up() {
       setI(1)
     }
+    
     return (
       <div>
         <button style={styles.button} onClick={up}>問題へ</button>
